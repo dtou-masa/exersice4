@@ -19,11 +19,11 @@ int main()
   
    if(die1 + die2 > 7)
     {
-      printf("You won\n");
+      printf("%s won\n", name);
     }
   else if(die1 + die2 <= 7)
     {
-      printf("You lost\n");
+      printf("%s lost\n",name);
     }
   return 0;
 }
